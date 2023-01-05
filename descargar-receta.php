@@ -10,7 +10,7 @@ $dompdf = new Dompdf\Dompdf();
 $html = file_get_contents('Consultorio/Consultorio-medico/receta.html');
 
 // Establece el tamaño del papel y la orientación
-$dompdf->setPaper('A4', 'landscape');
+$dompdf->setPaper('Letter', 'landscape');
 
 // Carga el HTML al objeto DOMPDF
 $dompdf->loadHtml($html);

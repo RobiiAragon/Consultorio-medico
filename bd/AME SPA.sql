@@ -62,3 +62,5 @@ VALUES
         'Ninguna',
         '2022-12-01'
     );
+
+    SELECT * FROM paciente;
